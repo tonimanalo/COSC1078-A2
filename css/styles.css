@@ -11552,3 +11552,11 @@ html {
 .natural{
   font-size: 16px;
 }
+.ideal{
+  width: 80px;
+  
+}
+
+.ideal-subtitle{
+  align-items: center;
+}
