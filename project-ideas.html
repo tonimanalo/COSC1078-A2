@@ -173,7 +173,84 @@
                                     
 
                                 <h6 id="plan">Plan and progress</h6>
-                                <p class="p-IIT">////</p>
+                                <p class="p-IIT">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Plan Pal is a calendar app that integrates multiple calendars into a single shared calendar. The scope also extends to a shared Spotify 
+                                    playlist that can updated on the fly in app and google maps integration for restaurants in your city which users can add as a marker on the shared calendar. 
+                                    This is the general idea, and it sounds so simple but of course will involve a lot of background work from our resolute team to make it come to life. This is 
+                                    how we have been doing it and are continuing to do.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firstly, we all decided on roles within the group. Nadvi and Aiden were the most technologically adept 
+                                    and knowledgeable, Toni is great at organisation, Raj has a creative streak and Dhiraj has a knack for getting difficult jobs done. Using this basis, we decide 
+                                    on the roles; Raj would create an initial drawing for how the app should look, Nadvi would design a prototype, Aiden would code for the application, Dhiraj would
+                                     handle issues with licencing and Toni would make sure this all actually happened.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Raj used draw.io for the initial sketch of the app. Draw.io is an interactive 
+                                     online drawing platform with many tools that would be helpful when designing something like a UI. The team had already decided on an initial colour pallet of sunflower 
+                                     yellow (the colour of friendship, a big motivation for the creation of the app itself) and using this Raj got to work designing something sleek to look at. He tried to 
+                                     avoid having too much information on the page. Eventually he finished his initial sketch. The team was not too impressed...   </p>
+                                <img src="assets/IIT1.jpg">
+                                <p class="p-IIT">It turns out Raj’s creative streak did not extend too far into the arts and craft field. This however did not deter the team and Nadvi was confident he could make a prototype that felt like Raj’s 
+                                    design but looked much better.<br>This led to another key decision for the team; what to use for our first prototype. An initial look into technology to serve for 
+                                    this purpose lead us to Adobe XD. While this was a flashy application none of us had any experience with it. An initial use led us to believe the application was 
+                                    out of the scope for what we were looking for. We wanted a simple application to show a protype of what an app may look like on a phone screen. Luckily Nadvi had 
+                                    worked with something before called Figma. Figma is an open-source software used to make interactive text prototypes., exactly what we had been looking for.<br>Nadvi got to work 
+                                    and produced a beautiful looking prototype. Here is a link to it here:</p>
+                                <a class="p-IIT" href="https://www.figma.com/proto/o4k1peW4Nt8JAfuC9z18Ni/App-Protoype?node-id=10%3A1249&scaling=scale-down&page-id=0%3A1&starting-point-node-id=10%3A1249" target="_blank">Click here</a>
+                                <p class="p-IIT"><strong>Below is a screen shot of one of the pages. </strong></p>
+                                <img src="assets/IIT2.jpg">
+                                <p class="p-IIT">Only after a couple of weeks we already had a beautiful prototype for something we were creating. The dog logo was Raj’s idea to make up for his terrible initial sketch. He’s your Plan Pal!<br>
+                                    Finally, the most daunting stage of the project; developing the application. Many ideas were thrown around. We investigated using Firebase at first as Aiden was familiar with it however it looked too restrictive 
+                                    in its design for what we wanted from it. We also investigated Flutter, however nobody wanted to learn C coding which Flutter uses. Eventually we landed with the following for our application: </p>
+                                <ul class="p-IIT">
+                                    <li>Built from Swift language </li>
+                                    <li>IOSSDK for the toolkit </li>
+                                    <li>Spotify plug in for the music integration (something we wanted from the start) </li>
+                                    <li>Google Maps for restaurant browsing  </li>
+                                    <li>Circle CI for integration and testing </li>
+                                </ul>    
+
+                                <ul>
+                                    <li class="p-IIT"><strong>Swift</strong></li>
+                                </ul>
+                                <p class="p-IIT">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Swift is a programming language we were going to use as our backbone for Plan Pal. Nadvi had some experience with it before and Aiden was a quick learner. 
+                                    Designed by apple it is a compiled language great for first time app developers. Using its open-source website swift.org we got inspiration from other builds from other creators. 
+                                    Initial programming has been tough as Aiden and Nadvi are just getting used to the language however we plan to build the application from ground up using it. This is still a work 
+                                    in progress and no real code has been written yet. </p>
+                                   
+                                <ul>
+                                    <li class="p-IIT"><strong>IOS SDK </strong></li>
+                                </ul>
+
+                                <p class="p-IIT">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IOS SDK contains sets that give developers functions to be used on IOS devices. We plan to 
+                                    release this app on IOS first so this toolkit is a much. It comes with an interaction iPhone that we can test our build on once we have some working code. It supports 
+                                    swift and Dhiraj and Raj plan to learn its functionality once we start our coding phase. </p>
+
+                                <ul>
+                                    <li class="p-IIT"><strong>Spotify </strong></li>
+                                </ul>
+
+                                <p class="p-IIT">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This step and the next step seemed the most daunting to us. We are a small time ‘company’ made 
+                                    up of five university students looking for integration with some of the largest tech companies in the world. Raj set to work reading the legal documentation while Toni 
+                                    looked for some applications and contacts. Starting with <a href='https://developer.spotify.com/documentation/general/guides/authorization'> click here</a> this helped give some idea of what we 
+                                    needed to work through for a commercial partnership with Spotify and to integrate it with our app. An issue we quickly ran into was the use of streaming only being 
+                                    allowed to premium Spotify members. This would mean if we wanted our application to stream any songs on Spotify itself, all our app users needed to be premium members. 
+                                    To avoid this, we decided the app to only be used to create a Spotify playlist itself and if music needed to be streamed this would be done on the Spotify application by a user.<br>
+                                    Eventually we found ‘Spotify for developers’ a Spotify run dashboard for developers with Spotify app integration. We are still looking into the specifics of how Spotify will 
+                                    actually integrate into the app, but Toni is working towards that. If there are any legal issues Dhiraj will set to work talking with Spotify support.</p>
+                                
+                                
+                                <ul>
+                                    <li class="p-IIT"><strong>Google Maps</strong></li>
+                                </ul>
+
+                                <p class="p-IIT">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Google API was a bit simpler to understand logistics for. Google charges a flat rate for 
+                                    each request made on its API in your app integration and even has no charge for the first $200 each month. They also give you the resources you need to integrate 
+                                    their API once you have signed up for an account, something we plan to do after we have a working application. </p>
+
+                                <ul>
+                                    <li class="p-IIT"><strong>Circle CI</strong></li>
+                                </ul>
+
+                                <p class="p-IIT">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is something we still have not investigated but are planning on using for integration 
+                                    and testing of our application. It boasts to scale well with more users and depending on how our marketing department holds up we may need powerful servers from which 
+                                    to host our application and API integrations. This is for time to tell.<br>Looking further into the future, once our app is close to finishing its development, we plan 
+                                    on going all out with marketing. Billboards, TV ads, YouTube Ads, clicker Ads, shouting from the street, you name it. We believe in our Plan Pal and want to see it grow 
+                                    and improve the social lives of the people who use it. We are excited for its future and our future with it! </p>
 
                                 <h6 id="roles">Roles</h6>
                                 <p class="p-IIT"><strong>For our project we have 5 distinct and designated roles:</strong></p>
